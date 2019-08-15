@@ -1,0 +1,29 @@
+Note: Spring 2015, Jolyon Bloomfield
+
+This folder used to be very large for a repository. In the hopes of reducing the size, I’ve removed some aspects that didn’t seem to be used in the simulations. These can be found in the original 8.02r website, under /static/html/gwt-teal/. The items I’ve removed are the following:
+
+Couldn’t find use:
+WEB-INF/
+
+Were versions of the applets that we aren’t going to load:
+AmperesLawExtended/
+AmperesLawExtended2.html
+GaussLawFluxExtended/
+GaussLawFluxExtended2.html
+PChargesExtended/
+PChargesExtended2.html
+
+Copies of the applets that include instructions (which we will port into MITx):
+AmperesLaw.html
+ChargeByInduction.html
+GaussLawFlux.html
+PCharges.html
+
+Files that don’t seem to be being used:
+three.min.js
+jschannel.js
+
+
+This appears to be as clean as I can get this. All files within the remaining directories seem to be in use. Despite massive redundancies, it appears that there are differences between the various copies of the libraries, and so I can’t push them all together. Also note that all the .cache.html files are important.
+
+I've also updated the files to display more nicely in the MITx format. All files now refer to a single Gwtteal.css, in this directory.
